@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pearl Dental AI Chatbot Demo
 
-## Getting Started
+This is a fully mocked, frontend-only demo of an AI chatbot for dental practices. It is designed for instant deployment to Vercel and requires **no backend or API keys**.
 
-First, run the development server:
+## Features
+- Chat window with user and bot messages
+- Clickable example prompts for dental scenarios
+- Fake AI responses tailored to each prompt
+- Clean, modern UI
+
+## Example Prompts
+- Can I book a cleaning appointment for next week?
+- What should I do if my child has a toothache?
+- Do you accept Delta Dental insurance?
+- How often should I get a dental checkup?
+- What are your office hours?
+- Can you explain the process for teeth whitening?
+
+## Running Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploying to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Push this repo to GitHub (or your preferred git provider).
+2. Go to [vercel.com/new](https://vercel.com/new) and import your repo.
+3. Click **Deploy**. That's it!
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Note:** This is a demo only. No real patient data is used or stored.

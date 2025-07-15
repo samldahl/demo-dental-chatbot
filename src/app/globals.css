@@ -40,3 +40,7 @@ a {
     color-scheme: dark;
   }
 }
+
+.main input[type="text"] {
+  color: #1a365d; /* or #222 for a neutral dark */
+}
