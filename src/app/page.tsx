@@ -82,7 +82,7 @@ export default function DentalChatbotDemo() {
         <p>Ask me anything about managing your dental practice—appointments, staff, inventory, billing, and more!</p>
         <div>
           <div style={{ fontWeight: 500, marginBottom: 8 }}>Try these example prompts:</div>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+          <div className={styles.examplePromptScroll}>
             {EXAMPLE_PROMPTS.map((prompt) => (
               <button
                 key={prompt}
